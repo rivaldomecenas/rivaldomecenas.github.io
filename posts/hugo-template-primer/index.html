@@ -18,7 +18,7 @@ This document is a brief primer on using go templates."/>
 <meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.rivaldomecenas.tk/posts/hugo-template-primer/" />
+<meta property="og:url" content="/posts/hugo-template-primer/" />
 <meta property="article:published_time" content="2014-04-02T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2014-04-02T00:00:00&#43;00:00"/>
 
@@ -26,14 +26,14 @@ This document is a brief primer on using go templates." />
 
 
     
-      <base href="http://www.rivaldomecenas.tk/posts/hugo-template-primer/">
+      <base href="/posts/hugo-template-primer/">
     
     <title>
   (Hu)go Template Primer · RM Development
 </title>
 
     
-      <link rel="canonical" href="http://www.rivaldomecenas.tk/posts/hugo-template-primer/">
+      <link rel="canonical" href="/posts/hugo-template-primer/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -43,7 +43,7 @@ This document is a brief primer on using go templates." />
     
       
       
-      <link rel="stylesheet" href="http://www.rivaldomecenas.tk/css/coder.min.8f55553b403edd5ca20c94b4c7eb4e8606971f0ec224028708ff99657075ce19.css" integrity="sha256-j1VVO0A&#43;3VyiDJS0x&#43;tOhgaXHw7CJAKHCP&#43;ZZXB1zhk=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.min.8f55553b403edd5ca20c94b4c7eb4e8606971f0ec224028708ff99657075ce19.css" integrity="sha256-j1VVO0A&#43;3VyiDJS0x&#43;tOhgaXHw7CJAKHCP&#43;ZZXB1zhk=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -54,8 +54,8 @@ This document is a brief primer on using go templates." />
 
     
     
-    <link rel="icon" type="image/png" href="http://www.rivaldomecenas.tk/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://www.rivaldomecenas.tk/images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.55.6" />
   </head>
@@ -64,9 +64,9 @@ This document is a brief primer on using go templates." />
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="http://www.rivaldomecenas.tk">
+    <a class="navigation-title" href="">
       
-      <img class="logo" src="http://www.rivaldomecenas.tk/images/logo.png" alt="logo">
+      <img class="logo" src="/images/logo.png" alt="logo">
       
     </a>
     <input type="checkbox" id="menu-toggle" />
@@ -87,7 +87,7 @@ This document is a brief primer on using go templates." />
               
             
             <li class="navigation-item">
-              <a href="http://www.rivaldomecenas.tk/pt-br/">Pt</a>
+              <a href="/pt-br/">Pt</a>
             </li>
           
         
@@ -120,21 +120,21 @@ This document is a brief primer on using go templates." />
           </div>
           <div class="categories">
   <i class="fas fa-folder"></i>
-    <a href="http://www.rivaldomecenas.tk/categories/development/">Development</a>
+    <a href="/categories/development/">Development</a>
       <span class="separator">•</span>
-    <a href="http://www.rivaldomecenas.tk/categories/golang/">golang</a></div>
+    <a href="/categories/golang/">golang</a></div>
 
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="http://www.rivaldomecenas.tk/tags/go/">go</a>
+    <a href="/tags/go/">go</a>
       <span class="separator">•</span>
-    <a href="http://www.rivaldomecenas.tk/tags/golang/">golang</a>
+    <a href="/tags/golang/">golang</a>
       <span class="separator">•</span>
-    <a href="http://www.rivaldomecenas.tk/tags/templates/">templates</a>
+    <a href="/tags/templates/">templates</a>
       <span class="separator">•</span>
-    <a href="http://www.rivaldomecenas.tk/tags/themes/">themes</a>
+    <a href="/tags/themes/">themes</a>
       <span class="separator">•</span>
-    <a href="http://www.rivaldomecenas.tk/tags/development/">development</a></div>
+    <a href="/tags/development/">development</a></div>
 
         </div>
       </header>
@@ -186,7 +186,7 @@ functions.</p>
 <p>Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="http://www.rivaldomecenas.tk/layout/variables">variables</a> page.</p>
+<a href="/layout/variables">variables</a> page.</p>
 
 <p>A variable is accessed by referencing the variable name.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;title&gt;{{ .Title }}&lt;/title&gt;</pre></div>
@@ -197,7 +197,7 @@ page you are rendering. More details are available on the
 
 <p>Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="http://www.rivaldomecenas.tk/layout/functions">Hugo template
+available functions with their own. <a href="/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -337,7 +337,7 @@ you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="http://www.rivaldomecenas.tk/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
 
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -413,13 +413,13 @@ so, such as in this example:</p>
         
           
             <li>
-              <a href="http://www.rivaldomecenas.tk/posts/hugoisforlovers/">Getting Started with Hugo</a>
+              <a href="/posts/hugoisforlovers/">Getting Started with Hugo</a>
             </li>
           
         
           
             <li>
-              <a href="http://www.rivaldomecenas.tk/posts/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
+              <a href="/posts/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
             </li>
           
         
@@ -437,7 +437,7 @@ so, such as in this example:</p>
         
           
             <li>
-              <a href="http://www.rivaldomecenas.tk/posts/render-latex-using-katex/">Render LaTeX using KaTeX</a>
+              <a href="/posts/render-latex-using-katex/">Render LaTeX using KaTeX</a>
             </li>
           
         
@@ -449,13 +449,13 @@ so, such as in this example:</p>
         
           
             <li>
-              <a href="http://www.rivaldomecenas.tk/posts/theme-demo/">Theme Demo</a>
+              <a href="/posts/theme-demo/">Theme Demo</a>
             </li>
           
         
           
             <li>
-              <a href="http://www.rivaldomecenas.tk/posts/creating-a-new-theme/">Creating a New Theme</a>
+              <a href="/posts/creating-a-new-theme/">Creating a New Theme</a>
             </li>
           
         
@@ -463,7 +463,7 @@ so, such as in this example:</p>
         
           
             <li>
-              <a href="http://www.rivaldomecenas.tk/posts/hugoisforlovers/">Getting Started with Hugo</a>
+              <a href="/posts/hugoisforlovers/">Getting Started with Hugo</a>
             </li>
           
         

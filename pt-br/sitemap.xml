@@ -3,142 +3,142 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/categories/</loc>
+    <loc>/pt-br/categories/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.rivaldomecenas.tk/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/categories/"
+                href="/pt-br/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/posts/dummy/</loc>
+    <loc>/pt-br/posts/dummy/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/posts/</loc>
-    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.rivaldomecenas.tk/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/</loc>
+    <loc>/pt-br/posts/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.rivaldomecenas.tk/"
+                href="/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/"
+                href="/pt-br/posts/"
                 />
   </url>
   
   <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/tags/</loc>
+    <loc>/pt-br/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.rivaldomecenas.tk/tags/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/tags/"
+                href="/pt-br/"
                 />
   </url>
   
   <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/categories/blog/</loc>
-    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/tags/hugo/</loc>
+    <loc>/pt-br/tags/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.rivaldomecenas.tk/tags/hugo/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/tags/hugo/"
+                href="/pt-br/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/tags/i18n/</loc>
+    <loc>/pt-br/categories/blog/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.rivaldomecenas.tk/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/contact/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.rivaldomecenas.tk/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/projects/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://www.rivaldomecenas.tk/pt-br/series/</loc>
+    <loc>/pt-br/tags/hugo/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.rivaldomecenas.tk/series/"
+                href="/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.rivaldomecenas.tk/pt-br/series/"
+                href="/pt-br/tags/hugo/"
+                />
+  </url>
+  
+  <url>
+    <loc>/pt-br/tags/i18n/</loc>
+    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pt-br/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/pt-br/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>/pt-br/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/pt-br/projects/"
+                />
+  </url>
+  
+  <url>
+    <loc>/pt-br/series/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/pt-br/series/"
                 />
   </url>
   
